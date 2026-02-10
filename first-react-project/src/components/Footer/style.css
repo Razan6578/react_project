@@ -1,0 +1,192 @@
+
+.footer {
+  background-color: #f6c68b;
+  color: #000000;
+}
+
+.footer-links a{
+  color: #000000;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-logo svg {
+  width: 46px;
+  height: 45px;
+}
+
+.footer-logo span {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.subscribe h3 {
+  margin-bottom: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+.subscribe-form input {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  width: 220px;
+
+  background: transparent;          
+  border: 2px solid #262525; 
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  border: none;
+  background: #d36b2f;
+  color: #fff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.logo-circle {
+  width: 18px;
+  height: 18px;
+  background: purple;
+  border-radius: 50%;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-bottom select {
+  padding: 6px;
+  color: #262525;
+  background: transparent;          
+  border: 2px solid #262525; 
+}
+
+.socials span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+
+  .container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 30px 16px;
+  }
+
+
+  .subscribe-form {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .subscribe-form input {
+    width: 100%;
+    border-radius: 20px;
+    margin-right: 16px;
+  }
+
+  .subscribe-form button {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-logo span {
+    font-size: 22px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+  }
+
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .footer-bottom select {
+    width: 120px;
+  }
+
+  .socials span {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}

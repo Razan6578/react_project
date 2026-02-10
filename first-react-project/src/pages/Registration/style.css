@@ -6,7 +6,10 @@
   width: 29vw;
   background: white;
   border-radius: 10px;
+  max-width: 600px;
 }
+
+
 
 .center h1{
   text-align: center;
